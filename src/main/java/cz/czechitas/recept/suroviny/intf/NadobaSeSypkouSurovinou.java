@@ -2,9 +2,9 @@ package cz.czechitas.recept.suroviny.intf;
 
 public interface NadobaSeSypkouSurovinou {
 
-    String getJmeno();
+  String getJmeno();
 
-    int getHmotnost();
+  int getHmotnost();
 
-    void setHmotnost(int hmotnost);
+  void setHmotnost(int hmotnost);
 }

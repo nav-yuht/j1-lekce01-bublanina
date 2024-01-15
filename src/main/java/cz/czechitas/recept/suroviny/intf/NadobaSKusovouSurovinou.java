@@ -2,7 +2,7 @@ package cz.czechitas.recept.suroviny.intf;
 
 public interface NadobaSKusovouSurovinou {
 
-    boolean snizPocet();
+  boolean snizPocet();
 
-    String getJmeno();
+  String getJmeno();
 }
