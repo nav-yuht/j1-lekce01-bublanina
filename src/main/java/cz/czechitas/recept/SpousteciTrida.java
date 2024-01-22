@@ -73,15 +73,16 @@ public class SpousteciTrida {
     kuchynskaVaha.vynulujSeS(zlutaMiska);
     zlutaMiska.setHmotnostMouky(250);
 
-    /*nepovedené pokusy
-    while (zlutaMiska.getHmotnostMouky() !=250){
-        zlutaMiska.nalozSiTrochu(pytlikMouky);
-
-        if (zlutaMiska.getHmotnostMouky() ==250) {
-            break;
+/*    nepovedené pokusy
+    while (kuchynskaVaha.zjistiHmotnost(zlutaMiska) !=250){
+      if (kuchynskaVaha.zjistiHmotnost(zlutaMiska) < 250){
+              zlutaMiska.nalozSiTrochu(pytlikMouky);
+      }
+      else {
+           zlutaMiska.vylozSiTrochu();
       }
     }
-  */
+*/
 
     if (zlutaMiska.getHmotnostMouky() == 250){
 //      cervenaMiska.nalozSiCelyObsah(prasekDoPeciva);
