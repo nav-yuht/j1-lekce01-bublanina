@@ -71,7 +71,7 @@ public class SpousteciTrida {
 // 3. Přisypte 250 g mouky (pozor, pytlík mouky má 1 kg)
 //      kuchynskaVaha.zjistiHmotnost(zlutaMiska);
     kuchynskaVaha.vynulujSeS(zlutaMiska);
-    zlutaMiska.setHmotnostMouky(250);
+
 
 /*    nepovedené pokusy
     while (kuchynskaVaha.zjistiHmotnost(zlutaMiska) !=250){
